@@ -109,7 +109,7 @@ var signoutButton = document.getElementById('signout-button');
       $('#signinButton').attr('style', 'display: none');
 
       // Send the code to the server
-      $.get('https://localhost:8000/getStatus/'+authResult,function(data,status) {
+      $.get('https://localhost:5000/getStatus/'+authResult,function(data,status) {
         displayData(data);
       });
     }
