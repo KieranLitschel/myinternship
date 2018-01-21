@@ -1,0 +1,45 @@
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="banner.css">
+  <link rel="stylesheet" type="text/css" href="persistant.css">
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js">
+</script>
+<script src="https://apis.google.com/js/client:platform.js?onload=start" async defer>
+</script>
+
+
+  <script async defer src="https://apis.google.com/js/api.js"
+    onload="this.onload=function(){};handleClientLoad()"
+    onreadystatechange="if (this.readyState === 'complete') this.onload()">
+  </script>
+</head>
+<body>
+  <div id="banner">
+    <!-- IMAGE OF LOGO -->
+    <img src="logo.png"/>
+  </div>
+  <div id="nav_banner" width="100%">
+    <!-- Menu
+    Tracker
+    Profile
+    Statistics
+    -->
+    <a id="nav_link" href="tracker.html"> Tracker </a>
+    <a id="nav_link" href="statistics.html"> Statistics </a>
+    <a id="nav_link" href="profile.html"> Profile </a>
+    <span style="display: inline; text-align: center;">
+    <button id="signinButton" style="display: inline; text-align: center;">Authorize</button>
+    <button id="signout-button" style="display: none;  text-align: center;">Sign Out</button>
+  </span>
+  </div>
+  <!--Add buttons to initiate auth sequence and sign out-->
+
+<script src="emailHandler.js"> </script>
+  <div id="tracking_info">
+    <table>
+
+    </table>
+
+  </div>
+</body>
+</html>
