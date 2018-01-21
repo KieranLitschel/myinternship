@@ -1,0 +1,29 @@
+#banner {
+  width: 100%;
+  padding-left: 20px;
+  background-color: #00497F;
+
+}
+#logo {
+  padding-bottom: 10px
+}
+#nav_banner {
+  width: 100%;
+  padding-left: 20px;
+  height: 30px;
+  background-color: #00497F;
+  font-family: "Trebuchet MS";
+}
+#nav_link {
+    vertical-align: middle;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
+}
+#authorize-button {
+  vertical-align: middle;
+  padding-left: 20px;
+  padding-right: 20px;
+}

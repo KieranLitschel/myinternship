@@ -1,0 +1,29 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background-color: #effffd;
+}
+#content_table {
+  margin-left: 30px;
+  margin-top: 20px;
+  border-spacing: 2px;
+  border-style: none;
+  border: 1px solid black;
+  border-collapse: collapse;
+  font-family: "Trebuchet MS";
+}
+#content_table_header {
+  background-color: #7c798e;
+  margin-left: 30px;
+  margin-top: 20px;
+  border-spacing: 2px;
+  border-style: none;
+  border: 1px solid black;
+  border-collapse: collapse;
+  font-family: "Trebuchet MS";
+}
+#content_table * {
+  padding: 5px;
+}
