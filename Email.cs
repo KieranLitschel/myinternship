@@ -25,7 +25,7 @@ namespace WebApplication
         static string ApplicationName = "Internship Sorter";
         private static string userID = "litschel.kieran@gmail.com";
 
-        public static void Main(String userId)
+        public static void email(String userId)
         {
             UserCredential credential;
 
